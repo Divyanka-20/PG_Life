@@ -1,8 +1,8 @@
 <?php
-  $db_hostname = "127.0.0.1";
+  $db_hostname = "mysql.railway.internal";
   $db_username = "root";
-  $db_password = "";
-  $db_name = "pg_life";
+  $db_password = "pXBkSCyRjgsPdIiraTUGZZVIehPlCGtT";
+  $db_name = "railway";
 
   $con = mysqli_connect( $db_hostname , $db_username , $db_password , $db_name );
 ?>
